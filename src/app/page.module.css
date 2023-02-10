@@ -4,7 +4,43 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 240vh;
+}
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  margin: 20px;
+  border: solid 1px;
+  border-radius: 50px;
+}
+.portifolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  margin-top: 20px;
+  border: solid 1px;
+  border-radius: 50px;
+  transition: 0.35s;
+  cursor: pointer;
+  background-color: white;
+}
+.portifolio:hover > :not(:hover) {
+  opacity: 0.4;
+  transform: scale(0.9);
 }
 
 .description {
@@ -97,7 +133,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +161,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }

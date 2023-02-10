@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Inter } from "@next/font/google";
 import styles from "./page.module.css";
+import { Inter } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,24 +33,14 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="#aboutMe" className={styles.card}>
           <h2 className={inter.className}>
             Sobre mim <span>-&gt;</span>
           </h2>
           <p className={inter.className}>Venha me conhecer melhor !</p>
         </a>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="#portifolio" className={styles.card}>
           <h2 className={inter.className}>
             Projetos <span>-&gt;</span>
           </h2>
@@ -68,6 +58,14 @@ export default function Home() {
           </h2>
           <p className={inter.className}>Econtre minhas formas de contato</p>
         </a>
+      </div>
+      <div id="aboutMe" className={styles.aboutMe}>
+        <h2>About me</h2>
+      </div>
+      <div id="portifolio" className={styles.portifolio}>
+        <div className={styles.projects}>x</div>
+        <div className={styles.projects}>y</div>
+        <div className={styles.projects}>z</div>
       </div>
     </main>
   );
