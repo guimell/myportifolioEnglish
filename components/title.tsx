@@ -4,7 +4,7 @@ import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 const Title = () => {
   return (
-    <div className={styles.section}>
+    <div className="section">
       <div className={styles.center}>
         <h1>Davi Guimell Pereira Landulfo Jorge</h1>
         <div className={styles.description}>

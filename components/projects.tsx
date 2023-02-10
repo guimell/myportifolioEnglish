@@ -6,7 +6,7 @@ import atlas from "public/images/atlas.jpg";
 const inter = Inter({ subsets: ["latin"] });
 const Projects = () => {
   return (
-    <div id="portifolio" className={styles.section}>
+    <div id="portifolio" className="section">
       {/* my projects */}
       <div className={styles.portifolio}>
         <div className={styles.projects}>
