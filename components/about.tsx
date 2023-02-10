@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../src/styles/page.module.css";
 import { Inter } from "@next/font/google";
+import imageProfile from "public/images/davi.jpg";
 const inter = Inter({ subsets: ["latin"] });
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         <div className={styles.profile}>
           <div className={styles.profileImage}>
             <Image
-              src="/davi.jpg"
+              src={imageProfile}
               alt="Vercel Logo"
               className={styles.image}
               width={100}
