@@ -1,0 +1,37 @@
+.portifolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+}
+
+.portifolio:hover > :not(:hover) {
+  opacity: 0.4;
+  transform: scale(0.9);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  margin-top: 20px;
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  transition: 0.35s;
+  cursor: pointer;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  font-family: var(--font-mono);
+}
+
+.image {
+  object-fit: fill;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+}
