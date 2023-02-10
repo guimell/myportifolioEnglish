@@ -5,7 +5,7 @@ import imageProfile from "public/images/davi.jpg";
 const inter = Inter({ subsets: ["latin"] });
 const About = () => {
   return (
-    <div id="aboutMe" className={styles.section}>
+    <div id="aboutMe" className="section">
       <div className={styles.aboutMe}>
         {/* profile image and data */}
         <div className={styles.profile}>
