@@ -1,9 +1,8 @@
 .portifolio {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  margin: 20px;
 }
 
 .portifolio:hover > :not(:hover) {
@@ -18,7 +17,9 @@
   align-items: center;
   height: 300px;
   width: 400px;
-  margin-top: 20px;
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
   transition: 0.35s;
