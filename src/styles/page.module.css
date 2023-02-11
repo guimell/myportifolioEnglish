@@ -13,6 +13,7 @@
   height: auto;
   width: 100%;
   margin: 20px;
+  padding: 20px;
   font-family: var(--font-mono);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);

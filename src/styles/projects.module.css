@@ -54,4 +54,7 @@
   .portifolio {
     flex-direction: column;
   }
+  .projects {
+    margin: 20px;
+  }
 }
