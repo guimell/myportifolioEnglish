@@ -114,6 +114,7 @@ a {
   display: flex;
   flex-direction: row;
 }
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
