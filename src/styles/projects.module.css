@@ -96,7 +96,7 @@
   .portifolio {
     flex-direction: column;
   }
-  .projects {
+  .flipCard {
     margin: 20px;
   }
 }
