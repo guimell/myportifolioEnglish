@@ -10,24 +10,6 @@
   transform: scale(0.9);
 }
 
-/* .projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 350px;
-  width: 400px;
-  margin: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-  transition: 0.35s;
-  cursor: pointer;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  font-family: var(--font-mono);
-} */
-
 .image {
   object-fit: fill;
   border-radius: var(--border-radius);
@@ -84,6 +66,10 @@
 
 /* Style the back side */
 .flipCardBack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: var(--font-mono);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
