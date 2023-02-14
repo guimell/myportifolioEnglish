@@ -4,6 +4,7 @@ import Title from "components/title";
 import { Inter } from "@next/font/google";
 import About from "components/about";
 import Projects from "components/projects";
+import Contact from "components/contact";
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Title />
       <About />
       <Projects />
-      {/* contact information */}
+      <Contact />
       <div id="contact"></div>
     </main>
   );
