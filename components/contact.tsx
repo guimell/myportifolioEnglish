@@ -9,7 +9,11 @@ const Contact = () => {
       <div className={styles.inline}>
         <div className={styles.containerSocial}>
           {/* <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --> */}
-          <a href="https://www.instagram.com/guimell___eu/" target="_blank">
+          <a
+            href="https://www.instagram.com/guimell___eu/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className={styles.containerIcon}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -28,6 +32,7 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/davi-guimell-24624820a/"
             target="_blank"
+            rel="noreferrer"
           >
             <div className={styles.containerIcon}>
               <svg
@@ -44,7 +49,7 @@ const Contact = () => {
 
         <div className={styles.containerSocial}>
           {/*<!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --> */}
-          <a href="https://github.com/guimell" target="_blank">
+          <a href="https://github.com/guimell" target="_blank" rel="noreferrer">
             <div className={styles.containerIcon}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +65,7 @@ const Contact = () => {
 
         <div className={styles.containerSocial}>
           {/*<!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --> */}
-          <a href="mailto:dgplj@outlook.com">
+          <a href="mailto:dgplj@outlook.com" rel="noreferrer">
             <div className={styles.containerIcon}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
