@@ -7,7 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 const Projects = () => {
   return (
     <div id="portifolio" className="section">
+      <h1></h1>
       {/* my projects */}
+      <h1 className="title">Projetos</h1>
       <div className={styles.portifolio}>
         <div className={styles.flipCard}>
           <div className={styles.flipCardInner}>
@@ -23,6 +25,7 @@ const Projects = () => {
             </div>
             <div className={styles.flipCardBack}>
               <h1>MovieMatter</h1>
+              <br />
               <p>
                 Um aplicativo para iOS e Android que mostra aos usuários filmes,
                 programas de TV e celebridades relevantes usando a API TMDB. Os
@@ -47,6 +50,7 @@ const Projects = () => {
             <div className={styles.flipCardBack}>
               <h1>Atlas</h1>
               <p>[Em desenvolvimento]</p>
+              <br />
               <p>
                 Um jogo de pixel art onde você, Atlas, defende sua casa de ondas
                 infinitas de inimigos. Você pode escolher um Cavaleiro, um Mago
@@ -69,6 +73,7 @@ const Projects = () => {
             </div>
             <div className={styles.flipCardBack}>
               <h1>Andarilho</h1>
+              <br />
               <p>Architect & Engineer</p>
               <p>We love that guy</p>
             </div>

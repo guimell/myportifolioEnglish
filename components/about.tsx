@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 const About = () => {
   return (
     <div id="aboutMe" className="section">
+      <h1 className="title">Sobre mim</h1>
       <div className={styles.aboutMe}>
         {/* profile image and data */}
         <div className={styles.profile}>
@@ -41,8 +42,6 @@ const About = () => {
         <div className={styles.verticalLine}></div>
         {/* my goals */}
         <div className={styles.profileDescription}>
-          <h2>Sobre mim:</h2>
-          <br />
           <p>
             Realizarei o trabalho que me for passado com virtuosidade,
             ambicionando crescimento e desenvolvimento pessoal na área que
