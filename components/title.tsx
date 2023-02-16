@@ -24,7 +24,7 @@ const Title = () => {
           <h2 className={inter.className}>
             Projetos <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Conheça todos os meu projetos.</p>
+          <p className={inter.className}>Conheça todos os meu projetos</p>
         </a>
 
         <a href="#contact" className={styles.card}>
@@ -32,6 +32,18 @@ const Title = () => {
             Contato <span>-&gt;</span>
           </h2>
           <p className={inter.className}>Econtre minhas formas de contato</p>
+        </a>
+        <a href="#education" className={styles.card}>
+          <h2 className={inter.className}>
+            Escolaridade <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>insituições que frequentei</p>
+        </a>
+        <a href="#experience" className={styles.card}>
+          <h2 className={inter.className}>
+            Experiencia <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>Experiencia de trabalho</p>
         </a>
       </div>
     </div>
