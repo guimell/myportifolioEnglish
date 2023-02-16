@@ -70,6 +70,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   font-family: var(--font-mono);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
@@ -81,6 +82,7 @@
 @media (max-width: 1023px) {
   .portifolio {
     flex-direction: column;
+    align-items: center;
   }
   .flipCard {
     margin: 20px;
