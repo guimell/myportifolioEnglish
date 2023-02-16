@@ -7,7 +7,6 @@ const inter = Inter({ subsets: ["latin"] });
 const Projects = () => {
   return (
     <div id="portifolio" className="section">
-      <h1></h1>
       {/* my projects */}
       <h1 className="title">Projetos</h1>
       <div className={styles.portifolio}>
