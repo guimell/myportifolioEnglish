@@ -30,6 +30,52 @@
   filter: invert(1);
 }
 
+.containerPhoneIcon {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: black;
+  transition: all 0.4s;
+  transform: scale(1) !important;
+}
+
+.containerPhoneIcon p {
+  width: 0px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.containerPhoneIcon:hover p {
+  width: 100%;
+}
+
+.containerPhoneIcon svg {
+  fill: white;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  transform: scale(1);
+}
+
+.containerPhoneIcon svg:hover {
+  visibility: visible;
+}
+
+.containerPhoneIcon:hover {
+  filter: invert(1);
+  height: 100px;
+  width: 300px;
+  border-radius: 50px;
+}
+
 @media (max-width: 1023px) {
   .inline {
     flex-direction: column;
