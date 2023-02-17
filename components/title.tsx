@@ -20,6 +20,20 @@ const Title = () => {
           <p className={inter.className}>Venha me conhecer melhor !</p>
         </a>
 
+        <a href="#experience" className={styles.card}>
+          <h2 className={inter.className}>
+            Experiencia <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>Experiencia de trabalho</p>
+        </a>
+
+        <a href="#education" className={styles.card}>
+          <h2 className={inter.className}>
+            Escolaridade <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>insituições que frequentei</p>
+        </a>
+
         <a href="#portifolio" className={styles.card}>
           <h2 className={inter.className}>
             Projetos <span>-&gt;</span>
@@ -32,18 +46,6 @@ const Title = () => {
             Contato <span>-&gt;</span>
           </h2>
           <p className={inter.className}>Econtre minhas formas de contato</p>
-        </a>
-        <a href="#education" className={styles.card}>
-          <h2 className={inter.className}>
-            Escolaridade <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>insituições que frequentei</p>
-        </a>
-        <a href="#experience" className={styles.card}>
-          <h2 className={inter.className}>
-            Experiencia <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Experiencia de trabalho</p>
         </a>
       </div>
     </div>
