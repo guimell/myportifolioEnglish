@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id="aboutMe" className="section">
       <h1 className="title">Sobre mim</h1>
-      <div className={styles.aboutMe}>
+      <div className={`${styles.aboutMe} reveal`}>
         {/* profile image and data */}
         <div className={styles.profile}>
           <div className={styles.profileImage}>
