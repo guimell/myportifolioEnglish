@@ -60,8 +60,14 @@
 
 /* Style the front side (fallback if image is missing) */
 .flipCardFront {
-  background-color: #bbb;
+  /* background-color: #bbb; */
   color: black;
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  background-color: rgba(var(--callout-rgb), 0.5);
+}
+.flipCardFront img {
+  object-fit: fill;
 }
 
 /* Style the back side */
