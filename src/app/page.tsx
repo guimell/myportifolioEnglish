@@ -11,6 +11,8 @@ import Experience from "components/experience";
 
 import { useEffect } from "react";
 import { inView } from "components/inView";
+import Fab from "components/fab";
+
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   useEffect(() => {
@@ -39,6 +41,7 @@ export default function Home() {
       <Education />
       <Projects />
       <Contact />
+      <Fab />
       <div id="contact"></div>
     </main>
   );
