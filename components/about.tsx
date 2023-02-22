@@ -1,7 +1,7 @@
 import Image from "next/image";
+import imageProfile from "public/images/davi.jpg";
 import styles from "../src/styles/page.module.css";
 import { Inter } from "@next/font/google";
-import imageProfile from "public/images/davi.jpg";
 const inter = Inter({ subsets: ["latin"] });
 const About = () => {
   return (

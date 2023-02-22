@@ -46,7 +46,8 @@ const Projects = () => {
     <div id="portifolio" className="section">
       {/* my projects */}
       <h1 className="title">Projetos</h1>
-      <h1>Mobile</h1>
+      <h1 style={{ fontFamily: "Cascadia Mono" }}>Mobile</h1>
+
       <div className={`${styles.portifolio} reveal`}>
         <Project
           src={movieMatterImage}
@@ -77,7 +78,7 @@ const Projects = () => {
                 ou um Arqueiro nesta missão para defender sua casa!`}
         />
       </div>
-      <h1>Web</h1>
+      <h1 style={{ fontFamily: "Cascadia Mono" }}>Web</h1>
       <div className={`${styles.portifolio} reveal`}>
         <Project
           src={zakkyCo}

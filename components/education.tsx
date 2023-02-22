@@ -1,7 +1,7 @@
-import Image from "next/image";
 import styles from "../src/styles/education.module.css";
 import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
+
 const Education = () => {
   return (
     <div id="education" className="section">
