@@ -48,6 +48,7 @@
 }
 
 .containerPhoneIcon p {
+  opacity: 0;
   width: 0px;
   overflow: hidden;
   transition: all 0.4s;
@@ -55,6 +56,7 @@
 
 .containerPhoneIcon:hover p {
   width: 100%;
+  opacity: 1;
 }
 
 .containerPhoneIcon svg {

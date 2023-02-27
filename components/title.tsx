@@ -1,12 +1,11 @@
 import Image from "next/image";
 import styles from "../src/styles/page.module.css";
-import { Inter } from "@next/font/google";
-const inter = Inter({ subsets: ["latin"] });
+
 const Title = () => {
   return (
     <div className="section">
       <div className={styles.center}>
-        <h1>Davi Guimell Pereira Landulfo Jorge</h1>
+        <h1 className="home-title">Davi Guimell Jorge</h1>
         <div className={styles.description}>
           <p>Seja bem vindo ao meu portifolio&nbsp;</p>
         </div>
@@ -14,38 +13,38 @@ const Title = () => {
 
       <div className={styles.grid}>
         <a href="#aboutMe" className={styles.card}>
-          <h2 className={inter.className}>
+          <h2>
             Sobre mim <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Venha me conhecer melhor !</p>
+          <p>Venha me conhecer melhor !</p>
         </a>
 
         <a href="#experience" className={styles.card}>
-          <h2 className={inter.className}>
+          <h2>
             Experiencia <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Experiencia de trabalho</p>
+          <p>Experiencia de trabalho</p>
         </a>
 
         <a href="#education" className={styles.card}>
-          <h2 className={inter.className}>
+          <h2>
             Escolaridade <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>insituições que frequentei</p>
+          <p>insituições que frequentei</p>
         </a>
 
         <a href="#portifolio" className={styles.card}>
-          <h2 className={inter.className}>
+          <h2>
             Projetos <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Conheça todos os meu projetos</p>
+          <p>Conheça todos os meu projetos</p>
         </a>
 
         <a href="#contact" className={styles.card}>
-          <h2 className={inter.className}>
+          <h2>
             Contato <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Econtre minhas formas de contato</p>
+          <p>Econtre minhas formas de contato</p>
         </a>
       </div>
     </div>

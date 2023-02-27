@@ -12,6 +12,7 @@ import Experience from "components/experience";
 import { useEffect } from "react";
 import { inView } from "components/inView";
 import Fab from "components/fab";
+import Bubbles from "components/bubbles";
 
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
@@ -34,15 +35,25 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={styles.main}>
-      <Title />
-      <About />
-      <Experience />
-      <Education />
-      <Projects />
-      <Contact />
-      <Fab />
-      <div id="contact"></div>
-    </main>
+    <>
+      <Bubbles
+        minSize={1}
+        maxSize={50}
+        quantity={10}
+        blur={100}
+        maxSpeed={50}
+        minSpeed={50}
+      />
+      <main className={styles.main}>
+        <Title />
+        <About />
+        <Experience />
+        <Education />
+        <Projects />
+        <Contact />
+        <Fab />
+        <div id="contact"></div>
+      </main>
+    </>
   );
 }

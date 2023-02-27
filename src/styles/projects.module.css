@@ -1,9 +1,10 @@
 .portifolio {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 20px;
-  width: 100%;
+  width: auto;
 }
 
 .portifolio:hover > :not(:hover) {
@@ -11,25 +12,27 @@
   transform: scale(0.9);
 }
 
-.image {
-  object-fit: fill;
-  border-radius: var(--border-radius);
-}
-
 .line {
   width: 100%;
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
 }
 
+.image {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
+
 /*container */
 .flipCard {
   background-color: transparent;
-  height: 350px;
-  width: 400px;
+  height: 300px;
+  width: 500px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   margin: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   transition: 0.35s;
 }
 
@@ -61,14 +64,11 @@
 
 /* Style the front side (fallback if image is missing) */
 .flipCardFront {
-  /* background-color: #bbb; */
   color: black;
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
   background-color: rgba(var(--callout-rgb), 0.5);
-}
-.flipCardFront img {
-  object-fit: fill;
+  box-shadow: 0px 2px 8px -1px #0000001a;
 }
 
 /* Style the back side */
@@ -82,8 +82,33 @@
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
   background-color: rgba(var(--callout-rgb), 0.5);
+  box-shadow: 0px 2px 8px -1px #0000001a;
   color: white;
   transform: rotateY(180deg);
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px;
+  background-color: #ffffff20;
+}
+.icons:hover > :not(:hover) {
+  opacity: 0.4;
+  transform: scale(0.9);
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  padding: 6px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+.iconClassName {
+  display: flex;
+  background-color: #ffffff20;
+  border-radius: 50px;
 }
 
 @media (max-width: 1023px) {
