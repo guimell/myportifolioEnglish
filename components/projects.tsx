@@ -6,6 +6,7 @@ import atlas from "public/images/atlas.jpg";
 import zakkyCo from "public/images/zakky.png";
 import coPilot from "public/images/coPilot.png";
 import marmoraria from "public/images/marmoraria2.png";
+import { AndroidIcon, AppleIcon } from "./utility/mySvg";
 const inter = Inter({ subsets: ["latin"] });
 
 const Project = ({
@@ -14,12 +15,14 @@ const Project = ({
   title,
   subTitle,
   description,
+  androidIcon,
 }: {
   src: StaticImageData;
   alt: string;
   title: string;
   subTitle?: string;
   description: string;
+  androidIcon?: JSX.Element;
 }) => {
   return (
     <div className={styles.flipCard}>
@@ -35,6 +38,7 @@ const Project = ({
           <p>{subTitle}</p>
           <br />
           <p>{description}</p>
+          <div className={styles.icon}>{androidIcon}</div>
         </div>
       </div>
     </div>
@@ -57,6 +61,7 @@ const Projects = () => {
                 programas de TV e celebridades relevantes usando a API TMDB. Os
                 usuários podem fazer login e adicionar às suas listas para obter
                 recomendações exclusivas de mídia.`}
+          // androidIcon={AndroidIcon}
         />
         <Project
           src={atlas}
