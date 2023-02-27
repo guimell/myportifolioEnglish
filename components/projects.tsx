@@ -48,8 +48,9 @@ const Project = ({
           <p>{description}</p>
           <br />
           <div className={iconsClassName ? iconsClassName : styles.icons}>
-            {icons?.map((icon) => (
+            {icons?.map((icon, i) => (
               <a
+                key={`${icon.link}-${i}`}
                 href={icon.link}
                 target="_blank"
                 rel="noreferrer"
