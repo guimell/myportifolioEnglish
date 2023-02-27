@@ -5,12 +5,14 @@ export function inView({
   aboveViewFn,
   inViewFn,
   belowViewFn,
+  onlyOne,
 }: {
   elements: NodeListOf<Element>;
   elementVisibleThreshold?: number;
   aboveViewFn?: (e: Element, i: number) => void;
   inViewFn?: (e: Element, i: number) => void;
   belowViewFn?: (e: Element, i: number) => void;
+  onlyOne?: boolean;
 }) {
   var windowHeight: number = window.innerHeight;
 
