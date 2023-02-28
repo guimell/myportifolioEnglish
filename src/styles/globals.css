@@ -104,6 +104,7 @@ body {
   margin: 20px;
   padding-left: 6rem;
   padding-right: 6rem;
+  min-height: 100vh;
   max-width: 2000px;
   justify-content: center;
   align-items: center;
@@ -135,6 +136,13 @@ a {
   transform: translateX(0px);
   opacity: 1;
 }
+.highLightSectionHeader {
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  padding: 6px;
+}
+
 @media (max-width: 1023px) {
   .section {
     padding-left: 0px;
