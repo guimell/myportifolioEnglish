@@ -110,6 +110,9 @@
   background-color: #ffffff20;
   border-radius: 50px;
 }
+.iconClassName:hover {
+  filter: brightness(2);
+}
 
 @media (max-width: 1023px) {
   .portifolio {
