@@ -43,10 +43,14 @@ const About = () => {
         {/* my goals */}
         <div className={styles.profileDescription}>
           <p>
-            Realizarei o trabalho que me for passado com virtuosidade,
-            ambicionando crescimento e desenvolvimento pessoal na área que
-            escolhi, visando sempre uma boa comunicação com empatia,
-            criatividade, abertura para inovações e gestão de projetos.
+            Como indivíduo altamente motivado, busco sempre a excelência em
+            todas as tarefas que me são atribuídas. Estou comprometido com o
+            crescimento e desenvolvimento pessoal na minha área escolhida e
+            procuro consistentemente oportunidades para aprimoramento. A
+            comunicação efetiva, empatia, criatividade e disposição para abraçar
+            a inovação são pontos fortes que eu trago para qualquer projeto.
+            Além disso, possuo habilidades fortes em gestão de projetos,
+            garantindo a conclusão bem-sucedida de todos os empreendimentos.
           </p>
         </div>
       </div>

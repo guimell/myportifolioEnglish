@@ -17,11 +17,18 @@ const Experience = () => {
           </div>
           <div className={styles.verticalLine}></div>
           <div className={styles.experience}>
-            <h1>Tarefas:</h1>
+            <h1>Sobre:</h1>
             <br />
             <p>
-              Desenvolver programas para automação de atividades e dar suporte
-              as maquinas da empresa.
+              Durante o meu estágio na empresa, atuei na área de suporte técnico
+              com destreza, realizando a criação de programas que automatizaram
+              processos e oferecendo suporte de alta qualidade para as máquinas
+              utilizadas pela organização. Desenvolvi habilidades importantes de
+              solução de problemas e comunicação, garantindo que todos os
+              projetos fossem entregues dentro dos prazos estipulados e com
+              excelência. A experiência adquirida me permitiu aprimorar minhas
+              habilidades em tecnologia da informação e me tornou um
+              profissional mais preparado para enfrentar desafios nessa área.
             </p>
           </div>
         </div>
@@ -35,12 +42,20 @@ const Experience = () => {
           </div>
           <div className={styles.verticalLine}></div>
           <div className={styles.experience}>
-            <h1>Tarefas:</h1>
+            <h1>Sobre:</h1>
             <br />
             <p>
-              desenvolver Aplicações web e mobile, tanto na parte front end,
-              quanto no back end. Participei da criação do aplicativo
-              moviematter, e de alguns sites institucionais.
+              Atualmente, exerço a função de desenvolvedor front-end de
+              aplicativos mobile e web na Zakky Co. Durante minha trajetória na
+              organização, fui parte integrante da equipe responsável pelo
+              desenvolvimento do aplicativo móvel MovieMatter, que obteve grande
+              sucesso. Também contribuí para a criação de diversos sites
+              institucionais, utilizando minhas habilidades técnicas em conjunto
+              com uma visão apurada de design para entregar soluções de alta
+              qualidade para os clientes. Essa experiência me permitiu aprimorar
+              minha capacidade de trabalhar em equipe e liderar projetos de
+              maneira eficaz, sempre priorizando a excelência em todos os
+              aspectos do trabalho.
             </p>
           </div>
         </div>
