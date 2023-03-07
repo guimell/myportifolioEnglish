@@ -1,8 +1,5 @@
-import Image from "next/image";
-import imageProfile from "public/images/davi.jpg";
 import styles from "../src/styles/page.module.css";
-import { Inter } from "@next/font/google";
-const inter = Inter({ subsets: ["latin"] });
+import { ProfileImage } from "./utility/mySvg";
 const About = () => {
   return (
     <div id="aboutMe" className="section">
@@ -10,16 +7,7 @@ const About = () => {
       <div className={`${styles.aboutMe} reveal`}>
         {/* profile image and data */}
         <div className={styles.profile}>
-          <div className={styles.profileImage}>
-            <Image
-              src={imageProfile}
-              alt="Vercel Logo"
-              className={styles.image}
-              width={100}
-              height={100}
-              priority
-            />
-          </div>
+          <div className={styles.profileImage}>{ProfileImage}</div>
           <h2>Davi Guimell</h2>
           {/* skill */}
           <div className="inline">
@@ -27,12 +15,12 @@ const About = () => {
               <ul>
                 <li>HTML & CSS</li>
                 <li>NEXT.JS</li>
-                <li>DART-FLUTTER</li>
+                <li>TYPESCRIPT</li>
               </ul>
             </div>
             <div className={styles.skills}>
               <ul>
-                <li>JAVA</li>
+                <li>DART-FLUTTER</li>
                 <li>JAVASCRIPT</li>
                 <li>PYTHON</li>
               </ul>

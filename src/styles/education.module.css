@@ -19,6 +19,7 @@
   font-family: var(--font-mono);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+  box-shadow: 0px 0px 8px #000000;
   background-color: rgba(var(--callout-rgb), 0.5);
 }
 .educationContainer h1 {
