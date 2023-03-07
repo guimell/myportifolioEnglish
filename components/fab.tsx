@@ -3,33 +3,33 @@ import styles from "../src/styles/fab.module.css";
 import { useEffect } from "react";
 import { inView } from "./inView";
 const Fab = () => {
-  useEffect(() => {
-    // handle scroll in view animation
-    function handleScroll() {
-      const HeaderElements = document.querySelectorAll(".fabHeader");
-      const SectionElements = document.querySelectorAll(".section");
+  // useEffect(() => {
+  //   // handle scroll in view animation
+  //   function handleScroll() {
+  //     const HeaderElements = document.querySelectorAll(".fabHeader");
+  //     const SectionElements = document.querySelectorAll(".section");
 
-      inView({
-        elements: SectionElements,
-        elementVisibleThreshold: 100,
-        inViewFn: (e, i) => {
-          HeaderElements[i].classList.add("highLightSectionHeader");
-        },
+  //     inView({
+  //       elements: SectionElements,
+  //       elementVisibleThreshold: 100,
+  //       inViewFn: (e, i) => {
+  //         HeaderElements[i].classList.add("highLightSectionHeader");
+  //       },
 
-        aboveViewFn: (e, i) => {
-          HeaderElements[i].classList.remove("highLightSectionHeader");
-        },
-        belowViewFn: (e, i) => {
-          HeaderElements[i].classList.remove("highLightSectionHeader");
-        },
-      });
-    }
+  //       aboveViewFn: (e, i) => {
+  //         HeaderElements[i].classList.remove("highLightSectionHeader");
+  //       },
+  //       belowViewFn: (e, i) => {
+  //         HeaderElements[i].classList.remove("highLightSectionHeader");
+  //       },
+  //     });
+  //   }
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <>
