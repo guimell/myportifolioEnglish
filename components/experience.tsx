@@ -9,15 +9,7 @@ const Experience = () => {
       <div className={`${styles.container} reveal`}>
         <div className={styles.containerExperience}>
           <div className={styles.experience}>
-            <h1>Trust certificações LTDA</h1>
-            <br />
-            <li>Estagio</li>
-            <br />
-            <li>2022-2023</li>
-          </div>
-          <div className={styles.verticalLine}></div>
-          <div className={styles.experience}>
-            <h1>Sobre:</h1>
+            <h1>Trust certificações LTDA - Estagio,2022-2023</h1>
             <br />
             <p>
               Durante o meu estágio na empresa, atuei na área de suporte técnico
@@ -34,15 +26,7 @@ const Experience = () => {
         </div>
         <div className={styles.containerExperience}>
           <div className={styles.experience}>
-            <h1>Zakky</h1>
-            <br />
-            <li>Desenvolvedor web/Mobile</li>
-            <br />
-            <li>2022-2023</li>
-          </div>
-          <div className={styles.verticalLine}></div>
-          <div className={styles.experience}>
-            <h1>Sobre:</h1>
+            <h1>ZAKKY - Desenvolvedor web/Mobile, 2022-2023</h1>
             <br />
             <p>
               Atualmente, exerço a função de desenvolvedor front-end de
