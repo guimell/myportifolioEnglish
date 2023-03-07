@@ -36,13 +36,13 @@ const Project = ({
     <div className={styles.flipCard}>
       <div className={styles.flipCardInner}>
         <div className={styles.flipCardFront}>
+          <h1>{title}</h1>
+          <br />
           <div className={styles.image}>
             <Image src={src} alt={alt} className={styles.image} priority />
           </div>
         </div>
         <div className={styles.flipCardBack}>
-          <h1>{title}</h1>
-          <br />
           <p>{subTitle}</p>
           <br />
           <p>{description}</p>
@@ -71,7 +71,6 @@ const Projects = () => {
     <div id="portifolio" className="section">
       {/* my projects */}
       <h1 className="title">Projetos</h1>
-      <h1 style={{ fontFamily: "Cascadia Mono" }}>Mobile</h1>
 
       <div className={`${styles.portifolio} reveal`}>
         <Project
@@ -104,22 +103,13 @@ const Projects = () => {
         />
 
         <Project
-          src={atlas}
-          alt={"atlas"}
-          title={"Andarilho"}
-          subTitle={"[Em desenvolvimento]"}
-          description={` Um jogo de pixel art onde você, Atlas, defende sua casa de ondas
-                infinitas de inimigos. Você pode escolher um Cavaleiro, um Mago
-                ou um Arqueiro nesta missão para defender sua casa!`}
-        />
-      </div>
-      <h1>Web</h1>
-      <div className={`${styles.portifolio} reveal`}>
-        <Project
           src={zakkyCo}
           alt={"site da Zakky"}
           title={"Zakky Company"}
-          description={"um website para aumentar o engajamento da sua empresa"}
+          description={`O projeto é uma landing page para a Zakky, uma empresa de marketing digital.
+           A página tem como objetivo apresentar os serviços oferecidos pela empresa de forma clara e objetiva, 
+           além de fornecer meios de contato para os interessados. 
+          Com um design moderno e intuitivo, a página destaca os pontos fortes da Zakky e oferece uma forma fácil de entrar em contato.`}
           icons={[
             {
               svg: InternetIcon,
@@ -133,7 +123,10 @@ const Projects = () => {
           alt={"site Co-Pilot"}
           title={"Co-Pilot"}
           subTitle={"[Em desenvolvimento]"}
-          description={"um website para achar e realizar serviços "}
+          description={`Esta plataforma oferece uma experiência de usuário simplificada,
+           com ferramentas intuitivas de gerenciamento de projetos para uma conclusão eficiente dos projetos. 
+           Os usuários fazem login com suas contas do Google e conectam suas contas do Stripe para processamento de pagamentos sem complicações.
+           Os usuários podem criar e colaborar em projetos, além de fazer lances em projetos submetidos por outros.`}
           icons={[
             {
               svg: InternetIcon,
@@ -146,7 +139,10 @@ const Projects = () => {
           src={marmoraria}
           alt={"site da marmoraria santo antonio"}
           title={"Marmoraria santo antonio"}
-          description={"web site feito para a empresa de marmores"}
+          description={`O projeto é um site para uma marmoraria, que inclui páginas de inicio,
+           sobre, serviços e contato.
+           Com um design moderno, o site apresenta informações claras sobre a empresa, 
+           seus serviços e como entrar em contato.`}
           icons={[
             {
               svg: InternetIcon,
