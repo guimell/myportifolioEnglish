@@ -109,7 +109,7 @@ const Projects = () => {
           description={`O projeto é uma landing page para a Zakky, uma empresa de marketing digital.
            A página tem como objetivo apresentar os serviços oferecidos pela empresa de forma clara e objetiva, 
            além de fornecer meios de contato para os interessados. 
-          Com um design moderno e intuitivo, a página destaca os pontos fortes da Zakky e oferece uma forma fácil de entrar em contato.`}
+          Com um design moderno e intuitivo, a página destaca os pontos fortes da Zakky e oferece uma forma fácil de entrar em contato.`}
           icons={[
             {
               svg: InternetIcon,
@@ -124,9 +124,9 @@ const Projects = () => {
           title={"Co-Pilot"}
           subTitle={"[Em desenvolvimento]"}
           description={`Esta plataforma oferece uma experiência de usuário simplificada,
-           com ferramentas intuitivas de gerenciamento de projetos para uma conclusão eficiente dos projetos. 
-           Os usuários fazem login com suas contas do Google e conectam suas contas do Stripe para processamento de pagamentos sem complicações.
-           Os usuários podem criar e colaborar em projetos, além de fazer lances em projetos submetidos por outros.`}
+           com ferramentas para uma conclusão eficiente dos projetos. 
+          usuários fazem login com o Google e conectam suas contas do Stripe para processamento de pagamentos.
+           Os usuários podem criar e colaborar em projetos, fazendo lances em projetos submetidos por outros.`}
           icons={[
             {
               svg: InternetIcon,
