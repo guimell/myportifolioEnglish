@@ -39,7 +39,7 @@ export default function Home() {
         maxSize={50}
         quantity={10}
         blur={80}
-        maxSpeed={70}
+        maxSpeed={60}
         minSpeed={50}
       />
       <main className={styles.main}>
