@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import styles from "../styles/page.module.css";
 import Title from "components/title";
 import About from "components/about";
@@ -38,8 +38,8 @@ export default function Home() {
         minSize={1}
         maxSize={50}
         quantity={10}
-        blur={100}
-        maxSpeed={50}
+        blur={80}
+        maxSpeed={70}
         minSpeed={50}
       />
       <main className={styles.main}>
