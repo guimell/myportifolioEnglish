@@ -26,7 +26,7 @@ const Experience = () => {
         </div>
         <div className={styles.containerExperience}>
           <div className={styles.experience}>
-            <h1>ZAKKY - Desenvolvedor web/Mobile, 2022-2023</h1>
+            <h1>ZAKKY - Desenvolvedor web/Mobile, 2022</h1>
             <br />
             <p>
               Atualmente, exerço a função de desenvolvedor front-end de
