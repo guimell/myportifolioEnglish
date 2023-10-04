@@ -12,7 +12,7 @@ const About = () => {
             <Image
               className={styles.profileImage2}
               src={ProfileImage}
-              alt={""}
+              alt={"profile image"}
             ></Image>
           </div>
           <h2>Davi Guimell</h2>

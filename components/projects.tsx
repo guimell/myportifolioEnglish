@@ -7,8 +7,7 @@ import zakkyCo from "public/images/zakky.png";
 import coPilot from "public/images/coPilot.png";
 import marmoraria from "public/images/marmoraria2.png";
 import { AndroidIcon, AppleIcon, InternetIcon } from "./utility/mySvg";
-import { jsx } from "@emotion/react";
-import { link } from "fs";
+
 const inter = Inter({ subsets: ["latin"] });
 
 type ProjectIcon = {
@@ -72,7 +71,7 @@ const Projects = () => {
       {/* my projects */}
       <h1 className="title">Projects</h1>
 
-      {/* <div className={`${styles.portifolio} reveal`}>
+      <div className={`${styles.portifolio} reveal`}>
         <Project
           src={movieMatterImage}
           alt={"movieMatter app image"}
@@ -137,7 +136,7 @@ const Projects = () => {
           ]}
           iconsClassName={styles.iconClassName}
         />
-      </div> */}
+      </div>
     </div>
   );
 };
