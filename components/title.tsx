@@ -7,7 +7,7 @@ const Title = () => {
       <div className={styles.center}>
         <h1 className="home-title">Davi Guimell Jorge</h1>
         <div className={styles.description}>
-          <p>Welcome to my portfolio&nbsp;</p>
+          <p>Welcome to my portfolio</p>
         </div>
       </div>
 
