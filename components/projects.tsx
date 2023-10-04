@@ -72,7 +72,7 @@ const Projects = () => {
       {/* my projects */}
       <h1 className="title">Projects</h1>
 
-      <div className={`${styles.portifolio} reveal`}>
+      {/* <div className={`${styles.portifolio} reveal`}>
         <Project
           src={movieMatterImage}
           alt={"movieMatter app image"}
@@ -137,7 +137,7 @@ const Projects = () => {
           ]}
           iconsClassName={styles.iconClassName}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
