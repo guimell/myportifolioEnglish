@@ -70,17 +70,14 @@ const Projects = () => {
   return (
     <div id="portifolio" className="section">
       {/* my projects */}
-      <h1 className="title">Projetos</h1>
+      <h1 className="title">Projects</h1>
 
       <div className={`${styles.portifolio} reveal`}>
         <Project
           src={movieMatterImage}
           alt={"movieMatter app image"}
           title={"MovieMatter"}
-          description={`Um aplicativo para iOS e Android que mostra aos usuários filmes,
-                programas de TV e celebridades relevantes usando a API TMDB. Os
-                usuários podem fazer login e adicionar às suas listas para obter
-                recomendações exclusivas de mídia.`}
+          description={`An iOS and Android app that shows users relevant movies, TV shows, and celebrities using the TMDB API. Users can log in and add them to their lists to receive exclusive media recommendations.`}
           icons={[
             {
               svg: AppleIcon,
@@ -96,20 +93,15 @@ const Projects = () => {
           src={atlas}
           alt={"atlas"}
           title={"Atlas"}
-          subTitle={"[Em desenvolvimento]"}
-          description={` Um jogo de pixel art onde você, Atlas, defende sua casa de ondas
-                infinitas de inimigos. Você pode escolher um Cavaleiro, um Mago
-                ou um Arqueiro nesta missão para defender sua casa!`}
+          subTitle={"[In development]"}
+          description={` A pixel art game where you, Atlas, defend your home from endless waves of enemies. You can choose a Knight, a Mage, or an Archer on this mission to protect your house!`}
         />
 
         <Project
           src={zakkyCo}
-          alt={"site da Zakky"}
+          alt={"Zakky Website"}
           title={"Zakky Company"}
-          description={`O projeto é uma landing page para a Zakky, uma empresa de marketing digital.
-           A página tem como objetivo apresentar os serviços oferecidos pela empresa de forma clara e objetiva, 
-           além de fornecer meios de contato para os interessados. 
-          Com um design moderno e intuitivo, a página destaca os pontos fortes da Zakky e oferece uma forma fácil de entrar em contato.`}
+          description={`The project is a landing page for Zakky, a digital marketing company. The page aims to present the services offered by the company clearly and concisely, as well as provide means of contact for interested parties. With a modern and intuitive design, the page highlights Zakky's strengths and offers an easy way to get in touch.`}
           icons={[
             {
               svg: InternetIcon,
@@ -120,13 +112,10 @@ const Projects = () => {
         />
         <Project
           src={coPilot}
-          alt={"site Co-Pilot"}
+          alt={"Co-Pilot website"}
           title={"Co-Pilot"}
-          subTitle={"[Em desenvolvimento]"}
-          description={`Esta plataforma oferece uma experiência de usuário simplificada,
-           com ferramentas para uma conclusão eficiente dos projetos. 
-          usuários fazem login com o Google e conectam suas contas do Stripe para processamento de pagamentos.
-           Os usuários podem criar e colaborar em projetos, fazendo lances em projetos submetidos por outros.`}
+          subTitle={"[In Development]"}
+          description={`This platform offers a simplified user experience, with tools for efficient project completion. Users log in with Google and connect their Stripe accounts for payment processing. Users can create and collaborate on projects, bidding on projects submitted by others.`}
           icons={[
             {
               svg: InternetIcon,
@@ -137,12 +126,9 @@ const Projects = () => {
         />
         <Project
           src={marmoraria}
-          alt={"site da marmoraria santo antonio"}
+          alt={"marmoraria santo antonio website"}
           title={"Marmoraria santo antonio"}
-          description={`O projeto é um site para uma marmoraria, que inclui páginas de inicio,
-           sobre, serviços e contato.
-           Com um design moderno, o site apresenta informações claras sobre a empresa, 
-           seus serviços e como entrar em contato.`}
+          description={`The project is a website for a marble workshop, which includes home, about, services, and contact pages. With a modern design, the website provides clear information about the company, its services, and how to get in touch.`}
           icons={[
             {
               svg: InternetIcon,

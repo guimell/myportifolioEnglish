@@ -40,19 +40,19 @@ const Fab = () => {
 
         <div className={styles.links}>
           <a href="#aboutMe" className="fabHeader">
-            Sobre mim
+            About Me
           </a>
           <a href="#experience" className="fabHeader">
-            Experiencia
+            Experience
           </a>
           <a href="#education" className="fabHeader">
-            Educação
+            Education
           </a>
           <a href="#portifolio" className="fabHeader">
-            Projetos
+            Projects
           </a>
           <a href="#contact" className="fabHeader">
-            Contato
+            Contact
           </a>
         </div>
       </div>

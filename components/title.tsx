@@ -7,44 +7,44 @@ const Title = () => {
       <div className={styles.center}>
         <h1 className="home-title">Davi Guimell Jorge</h1>
         <div className={styles.description}>
-          <p>Seja bem vindo ao meu portifolio&nbsp;</p>
+          <p>Welcome to my portfolio&nbsp;</p>
         </div>
       </div>
 
       <div className={styles.grid}>
         <a href="#aboutMe" className={styles.card}>
           <h2>
-            Sobre mim <span>-&gt;</span>
+            About Me <span>-&gt;</span>
           </h2>
-          <p>Venha me conhecer melhor !</p>
+          <p>Come get to know me better!</p>
         </a>
 
         <a href="#experience" className={styles.card}>
           <h2>
-            Experiencia <span>-&gt;</span>
+            Experience <span>-&gt;</span>
           </h2>
-          <p>Experiencia de trabalho</p>
+          <p>Work History</p>
         </a>
 
         <a href="#education" className={styles.card}>
           <h2>
-            Escolaridade <span>-&gt;</span>
+            Education <span>-&gt;</span>
           </h2>
-          <p>insituições que frequentei</p>
+          <p>Institutions I attended.</p>
         </a>
 
         <a href="#portifolio" className={styles.card}>
           <h2>
-            Projetos <span>-&gt;</span>
+            Projects <span>-&gt;</span>
           </h2>
-          <p>Conheça todos os meu projetos</p>
+          <p>Get to know all my projects.</p>
         </a>
 
         <a href="#contact" className={styles.card}>
           <h2>
-            Contato <span>-&gt;</span>
+            Contact <span>-&gt;</span>
           </h2>
-          <p>Econtre minhas formas de contato</p>
+          <p>Find my contact methods</p>
         </a>
       </div>
     </div>

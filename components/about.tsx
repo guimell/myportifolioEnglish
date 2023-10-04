@@ -1,13 +1,20 @@
 import styles from "../src/styles/page.module.css";
-import { ProfileImage } from "./utility/mySvg";
+import ProfileImage from "public/images/profileimage2.jpg";
+import Image from "next/image";
 const About = () => {
   return (
     <div id="aboutMe" className="section">
-      <h1 className="title">Sobre mim</h1>
+      <h1 className="title">About me</h1>
       <div className={`${styles.aboutMe} reveal`}>
         {/* profile image and data */}
         <div className={styles.profile}>
-          <div className={styles.profileImage}>{ProfileImage}</div>
+          <div className={styles.profileImage}>
+            <Image
+              className={styles.profileImage2}
+              src={ProfileImage}
+              alt={""}
+            ></Image>
+          </div>
           <h2>Davi Guimell</h2>
           {/* skill */}
           <div className="inline">
@@ -31,14 +38,9 @@ const About = () => {
         {/* my goals */}
         <div className={styles.profileDescription}>
           <p>
-            Como indivíduo altamente motivado, busco sempre a excelência em
-            todas as tarefas que me são atribuídas. Estou comprometido com o
-            crescimento e desenvolvimento pessoal na minha área escolhida e
-            procuro consistentemente oportunidades para aprimoramento. A
-            comunicação efetiva, empatia, criatividade e disposição para abraçar
-            a inovação são pontos fortes que eu trago para qualquer projeto.
-            Além disso, possuo habilidades fortes em gestão de projetos,
-            garantindo a conclusão bem-sucedida de todos os empreendimentos.
+            Motivated software developer with a knack for problem-solving and
+            creativity. Committed to growth and innovation, I bring empathy and
+            passion to each project, ensuring successful outcomes.
           </p>
         </div>
       </div>

@@ -5,41 +5,36 @@ const inter = Inter({ subsets: ["latin"] });
 const Experience = () => {
   return (
     <div id="experience" className="section">
-      <h1 className="title">Experiencia de trabalho</h1>
+      <h1 className="title">Employment History</h1>
       <div className={`${styles.container} reveal`}>
         <div className={styles.containerExperience}>
           <div className={styles.experience}>
-            <h1>Trust certificações LTDA - Estagio,2022-2023</h1>
+            <h1>Trust Certifications LTDA - Technical Intern,2022-2023</h1>
             <br />
             <p>
-              Durante o meu estágio na empresa, atuei na área de suporte técnico
-              com destreza, realizando a criação de programas que automatizaram
-              processos e oferecendo suporte de alta qualidade para as máquinas
-              utilizadas pela organização. Desenvolvi habilidades importantes de
-              solução de problemas e comunicação, garantindo que todos os
-              projetos fossem entregues dentro dos prazos estipulados e com
-              excelência. A experiência adquirida me permitiu aprimorar minhas
-              habilidades em tecnologia da informação e me tornou um
-              profissional mais preparado para enfrentar desafios nessa área.
+              During my technical internship in the technical support
+              department, I designed programs that automated workflows and I
+              ensured the organization's computers stayed performant. I
+              sharpened my problem-solving and communication skills,
+              consistently delivering projects both on time and to high
+              standards. This experience enhanced my IT expertise, positioning
+              me as a proficient professional poised to tackle challenges in the
+              technical field.
             </p>
           </div>
         </div>
         <div className={styles.containerExperience}>
           <div className={styles.experience}>
-            <h1>ZAKKY - Desenvolvedor web/Mobile, 2022</h1>
+            <h1>ZAKKY - Software developer , 2022</h1>
             <br />
             <p>
-              Atualmente, exerço a função de desenvolvedor front-end de
-              aplicativos mobile e web na Zakky Co. Durante minha trajetória na
-              organização, fui parte integrante da equipe responsável pelo
-              desenvolvimento do aplicativo móvel MovieMatter, que obteve grande
-              sucesso. Também contribuí para a criação de diversos sites
-              institucionais, utilizando minhas habilidades técnicas em conjunto
-              com uma visão apurada de design para entregar soluções de alta
-              qualidade para os clientes. Essa experiência me permitiu aprimorar
-              minha capacidade de trabalhar em equipe e liderar projetos de
-              maneira eficaz, sempre priorizando a excelência em todos os
-              aspectos do trabalho.
+              I worked as a front-end developer for both mobile and web
+              applications. One of my main projects was contributing to the
+              development of the MovieMatter mobile app. I also participated in
+              the creation of several websites, combining technical know-how
+              with a consideration for design. This experience taught me the
+              importance of teamwork and project management, ensuring quality in
+              every task I undertook.
             </p>
           </div>
         </div>

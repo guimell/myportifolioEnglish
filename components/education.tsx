@@ -5,33 +5,33 @@ const inter = Inter({ subsets: ["latin"] });
 const Education = () => {
   return (
     <div id="education" className="section">
-      <h1 className="title">Educação</h1>
+      <h1 className="title">Education</h1>
       <div className={styles.educationGrid}>
         <div className={`${styles.educationContainer} reveal`}>
-          <h1>Ciências da computação</h1>
+          <h1>Computer Science</h1>
           <br />
-          <li>Conclusão ensino superior - UNIFACS Universidade Salvador </li>
+          <li>UNIFACS - Salvador - Brazil </li>
           <br />
-          <li>2019-2023</li>
+          <li>2019-2022</li>
         </div>
         <div className={`${styles.educationContainer} reveal`}>
-          <h1>Desenvolvendo aplicações mobile com android studio</h1>
+          <h1>Mobile Application Fundamental</h1>
           <br />
-          <li>Certificado - Fundação Bradesco</li>
+          <li>Certificate - Bradesco Foundation</li>
           <br />
           <li>2022</li>
         </div>
         <div className={`${styles.educationContainer} reveal`}>
-          <h1>Inovando com CSS</h1>
+          <h1>Innovating with CSS</h1>
           <br />
-          <li>Certificado - Fundação Bradesco</li>
+          <li>Certificate - Bradesco Foundation</li>
           <br />
           <li>2022</li>
         </div>
         <div className={`${styles.educationContainer} reveal`}>
-          <h1>Introdução a JavaScript</h1>
+          <h1>Introduction to JavaScript</h1>
           <br />
-          <li>Certificado - Fundação Bradesco </li>
+          <li>Certificate - Bradesco Foundation </li>
           <br />
           <li>2022</li>
         </div>

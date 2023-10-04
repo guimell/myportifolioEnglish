@@ -37,9 +37,13 @@
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: 100%;
 }
-.profileImage svg {
-  fill: white;
-  height: 60px;
+.profileImage2 {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
 }
 
 .skills {
