@@ -6,7 +6,7 @@ import atlas from "public/images/atlas.jpg";
 import zakkyCo from "public/images/zakky.png";
 import coPilot from "public/images/coPilot.png";
 import marmoraria from "public/images/marmoraria2.png";
-import { AndroidIcon, AppleIcon, InternetIcon } from "./utility/mySvg";
+import { AndroidIcon, AppleIcon, InternetIcon, GitHub } from "./utility/mySvg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -86,6 +86,11 @@ const Projects = () => {
               svg: AndroidIcon,
               link: "https://play.google.com/store/apps/details?id=com.mjorge.MovieMatter&pli=1",
             },
+
+            {
+              svg: GitHub,
+              link: "https://github.com/guimell",
+            },
           ]}
         />
         <Project
@@ -94,6 +99,12 @@ const Projects = () => {
           title={"Atlas"}
           subTitle={"[In development]"}
           description={` A pixel art game where you, Atlas, defend your home from endless waves of enemies. You can choose a Knight, a Mage, or an Archer on this mission to protect your house!`}
+          icons={[
+            {
+              svg: GitHub,
+              link: "https://github.com/guimell",
+            },
+          ]}
         />
 
         <Project
@@ -105,6 +116,10 @@ const Projects = () => {
             {
               svg: InternetIcon,
               link: "https://zakky.agency",
+            },
+            {
+              svg: GitHub,
+              link: "https://github.com/guimell",
             },
           ]}
           iconsClassName={styles.iconClassName}
@@ -120,6 +135,10 @@ const Projects = () => {
               svg: InternetIcon,
               link: "https://co-pilot.netlify.app",
             },
+            {
+              svg: GitHub,
+              link: "https://github.com/guimell",
+            },
           ]}
           iconsClassName={styles.iconClassName}
         />
@@ -132,6 +151,10 @@ const Projects = () => {
             {
               svg: InternetIcon,
               link: "https://marmorariasa.com",
+            },
+            {
+              svg: GitHub,
+              link: "https://github.com/guimell",
             },
           ]}
           iconsClassName={styles.iconClassName}
