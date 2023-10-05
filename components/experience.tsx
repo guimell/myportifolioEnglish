@@ -13,7 +13,7 @@ const Experience = () => {
             <p>
               During my technical internship in the technical support
               department, I designed programs that automated workflows and I
-              ensured the organization s computers stayed performant. I
+              ensured the organization&apos;s computers stayed performant. I
               sharpened my problem-solving and communication skills,
               consistently delivering projects both on time and to high
               standards. This experience enhanced my IT expertise, positioning
